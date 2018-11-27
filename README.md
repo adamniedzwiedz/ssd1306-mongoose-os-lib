@@ -49,4 +49,6 @@ oled->setCursor(0,20);
 oled->println("=The 2nd long text=");
 
 oled->display();
+delay(2000);
+oled->startscrollleft(0, 5);
 ```
