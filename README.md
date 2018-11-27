@@ -6,7 +6,7 @@
 This is port of the mongoose os library https://github.com/mongoose-os-libs/arduino-adafruit-ssd1306 adjusted to 
 the 0.66" (64x48) OLED LCD version.
 
-##Example of usage
+## Example of usage
 
 ```c
 #include <Arduino.h>
