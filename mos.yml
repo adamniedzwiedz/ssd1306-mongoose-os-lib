@@ -1,17 +1,27 @@
-author: mongoose-os
+author: adamniedzwiedz <niedzwiedz.adam@gmail.com>
 type: lib
-description: An empty lib that does nothing
+description: Arduino Adafruit SSD1306 LCD
 version: 1.0
 
 sources:
   - src
-filesystem:
-  - fs
+
+includes:
+- include
+
 config_schema:
+  - ["i2c.enable", true]
+  - ["i2c.sda_gpio", 4]
+  - ["i2c.scl_gpio", 5]
+
 libs:
+  - origin: https://github.com/mongoose-os-libs/arduino-compat
+  - origin: https://github.com/mongoose-os-libs/arduino-wire
+  - origin: https://github.com/mongoose-os-libs/arduino-adafruit-gfx 
 
 tags:
   - c
+  - ssd1306
   - docs:misc:Empty
 
 manifest_version: 2017-09-29

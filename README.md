@@ -1,7 +1,6 @@
-# A blank Mongoose OS library
+# Arduino Adafruit SSD1306 LCD library
 
 
 ## Overview
 
-This blank library is intended to be used as a skeleton for deleloping
-Mongoose OS libraries.
+This is port of the mongoose os library https://github.com/mongoose-os-libs/arduino-adafruit-ssd1306 adjusted to the 0.66" (64x48) OLED LCD version.
